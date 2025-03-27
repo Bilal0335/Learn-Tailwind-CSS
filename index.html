@@ -88,24 +88,40 @@
 
     <!-- Hero Section -->
     <section class="relative bg-deepBlue">
-      <div class="flex flex-row items-center justify-between w-10/12 mx-auto text-white">
+      <div
+        class="flex flex-row items-center justify-between w-10/12 mx-width-[1080px] text-white mx-auto"
+      >
         <!-- left part -->
-        <div class="flex flex-col gap-4">
-          <h1 class="font-mullish text-[40px] leading-[1.2] font-bold">Power your finance, grow your business</h1>
+        <div class="space-y-8">
+          <h1 class="font-mullish text-[40px] leading-[1.2] font-bold">
+            Power your finance, grow your business
+          </h1>
           <div class="w-6 h-1 bg-green-300"></div>
-          <p>
+          <p class="font-mullish text-[18px] leading-7 text-white opacity-70">
             Accept payments from customers. Automate payouts to vendors &
             employees. Never run out of working capital.
           </p>
-          <button>Sign Up Now</button>
+          <button
+            class="font-bold text-white transition-all duration-200 bg-lightBlue font-mullish hover:bg-lightBlue500 rounded-md px-[18px] py-[14px]"
+          >
+            Sign Up Now
+          </button>
         </div>
         <!-- right part -->
-        <img src="./image/hero-illustration.jpg" alt="" />
+        <img
+          src="./image/hero-illustration.jpg"
+          alt=""
+          class="max-w-[680px] w-full"
+        />
       </div>
 
       <!-- shape part -->
-      <div>
-        <img src="./image/hero-shape.svg" alt="" />
+      <div class="absolute left-0 right-0 w-[100%]">
+        <img
+          src="./image/hero-shape.svg"
+          alt=""
+          class="object-fill w-full space-x-100"
+        />
       </div>
     </section>
   </body>
