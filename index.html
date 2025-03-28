@@ -6,6 +6,7 @@
     <title>Razorpay</title>
     <!-- <script src="https://cdn.tailwindcss.com"></script> -->
     <link rel="stylesheet" href="main.css" />
+    <script src="https://unpkg.com/feather-icons"></script>
   </head>
   <body>
     <!-- ! Navbar -->
@@ -159,18 +160,36 @@
               Supercharge your business with the all‑powerful
               <span class="text-lightBlue">Payment Gateway</span>
             </h3>
-            <ul>
-              <li><span>100+ Payment Methods</span></li>
-              <li><span>Industry Leading Success Rate</span></li>
-              <li><span>Superior Checkout Experience</span></li>
-              <li><span>Easy to Integrate</span></li>
-              <li><span>Instant Settlements from day 1</span></li>
-              <li><span>In-depth Reporting and Insights</span></li>
+            <ul class="space-y-2">
+              <li class="flex items-center space-x-2 font-mullish">
+                <i data-feather="check" class="w-5 h-5 text-greenLight"></i>
+                <span>100+ Payment Methods</span>
+              </li>
+              <li class="flex items-center space-x-2 font-mullish">
+                <i data-feather="check" class="w-5 h-5 text-greenLight"></i>
+                <span>Industry Leading Success Rate</span>
+              </li>
+              <li class="flex items-center space-x-2 font-mullish">
+                <i data-feather="check" class="w-5 h-5 text-greenLight"></i>
+                <span>Superior Checkout Experience</span>
+              </li>
+              <li class="flex items-center space-x-2 font-mullish">
+                <i data-feather="check" class="w-5 h-5 text-greenLight"></i>
+                <span>Easy to Integrate</span>
+              </li>
+              <li class="flex items-center space-x-2 font-mullish">
+                <i data-feather="check" class="w-5 h-5 text-greenLight"></i>
+                <span>Instant Settlements from day 1</span>
+              </li>
+              <li class="flex items-center space-x-2 font-mullish">
+                <i data-feather="check" class="w-5 h-5 text-greenLight"></i>
+                <span>In-depth Reporting and Insights</span>
+              </li>
             </ul>
 
             <!-- * For button and hyberlink  -->
-            <div>
-              <button>Sign Up Now</button>
+            <div class="flex flex-row items-center space-x-4">
+              <button class="text-white bg-lightBlue w-fit py-[14px] px-[18px] rounded-md font-mullish hover:bg-lightBlue500 transition-all duration-200">Sign Up Now</button>
               <div>
                 <a href="#">Know More</a>
                 <i></i>
@@ -181,5 +200,8 @@
         </div>
       </div>
     </section>
+    <script>
+      feather.replace();
+    </script>
   </body>
 </html>
